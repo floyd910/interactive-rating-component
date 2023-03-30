@@ -1,0 +1,49 @@
+.thanks_container {
+  padding: 34.7px 24px 37px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.point_counter {
+  margin-top: 24px;
+  background: #262e38;
+  border-radius: 22.5px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #fc7614;
+  padding: 5px 12px;
+}
+
+.thanks_container .title {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.thanks_container .text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .thanks_container {
+    padding: 45.79px 40px 45px 32px;
+  }
+  .thanks_container .title {
+    margin-top: 36px;
+  }
+
+  .thanks_container .text {
+    margin-top: 7px;
+  }
+
+  .point_counter {
+    padding: 4px 19px 4px 20px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
